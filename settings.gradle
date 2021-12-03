@@ -1,0 +1,18 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+    }
+}
+rootProject.name = "NavigationExample"
+include ':app'
+include ':feature:a:domain'
+include ':feature:a:presentation'
+include ':feature:a:infrastructure'
+include ':feature:b:presentation'
+include ':feature:b:domain'
+include ':feature:b:infrastructure'
+include ':feature:a:navigation'
+include ':feature:b:navigation'

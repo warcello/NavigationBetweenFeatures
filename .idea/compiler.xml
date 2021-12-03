@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="1.7">
+      <module name="NavigationExample.app" target="11" />
+      <module name="NavigationExample.feature.a.infrastructure" target="11" />
+      <module name="NavigationExample.feature.a.navigation" target="11" />
+      <module name="NavigationExample.feature.a.presentation" target="11" />
+      <module name="NavigationExample.feature.b.infrastructure" target="11" />
+      <module name="NavigationExample.feature.b.navigation" target="11" />
+      <module name="NavigationExample.feature.b.presentation" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
